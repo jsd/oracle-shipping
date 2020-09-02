@@ -107,3 +107,4 @@ dist
 build/contracts
 
 truffle-config.js
+.DS_Store

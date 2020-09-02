@@ -1,6 +1,3 @@
-
------------------------
-
 Bridges is a Chainlink adaptor framework, lowering the barrier of entry for anyone to create their own:
 
 - A tested hardened library that removes the need to build your own HTTP server, allowing you to just focus on 

@@ -78,7 +78,7 @@ func (eas *EAShipping) Run(h *bridges.Helper) (interface{}, error) {
 		url,
 		&object,
 		bridges.CallOpts{
-			Auth: bridges.NewAuth(bridges.AuthHeader, "Tracktry-Api-Key", "5d790814-bbe4-43cf-8ef8-0703fe6f6e0d"),
+			Auth: bridges.NewAuth(bridges.AuthHeader, "Tracktry-Api-Key", "APIKEY"),
 		},
 	)
 	return object.Data[0], err
